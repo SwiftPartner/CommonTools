@@ -15,7 +15,7 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "CommonTools"
+  spec.name         = "SwiftCommonTools2"
   spec.version      = "0.0.1"
   spec.summary      = "Swift常用工具类集合"
 
@@ -129,6 +129,8 @@ Pod::Spec.new do |spec|
   #  If your library depends on compiler flags you can set them in the xcconfig hash
   #  where they will only apply to your library. If you depend on other Podspecs
   #  you can include multiple dependencies to ensure it works.
+
+  spec.swift_versions = "5.0"
 
   # spec.requires_arc = true
 
