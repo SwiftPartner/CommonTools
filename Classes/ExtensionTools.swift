@@ -8,18 +8,10 @@
 
 import UIKit
 
-public extension Data {
-    var isJSON: Bool {
-        return JSONSerialization.isValidJSONObject(self)
+public extension UIDevice {
+    var hasNotch: Bool {
+        return UIApplication.shared.keyWindow?.safeAreaInsets.bottom ?? 0 > 0
     }
-    // Data以MB为单位计算大小
-    var countInMB: Double {
-        return Double(count) / 1024.0 / 1024.0
-    }
-}
-
-public extension String {
-
 }
 
 public extension UIScreen {
@@ -233,5 +225,19 @@ public extension FileManager {
 
 
 public extension URL {
+
+}
+
+public extension Data {
+    var isJSON: Bool {
+        return JSONSerialization.isValidJSONObject(self)
+    }
+    // Data以MB为单位计算大小
+    var countInMB: Double {
+        return Double(count) / 1024.0 / 1024.0
+    }
+}
+
+public extension String {
 
 }
