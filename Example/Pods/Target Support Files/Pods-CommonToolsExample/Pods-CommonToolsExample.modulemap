@@ -1,0 +1,6 @@
+module Pods_CommonToolsExample {
+  umbrella header "Pods-CommonToolsExample-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - SwiftCommonTools2 (0.0.2)
+
+DEPENDENCIES:
+  - SwiftCommonTools2 (from `../`)
+
+EXTERNAL SOURCES:
+  SwiftCommonTools2:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SwiftCommonTools2: 9b7dc394b24231e743a0b81cacda4ec00fb33085
+
+PODFILE CHECKSUM: e27d8d2aa08b79aacfb936557cbc599cc86ce623
+
+COCOAPODS: 1.8.3

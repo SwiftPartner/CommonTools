@@ -25,6 +25,16 @@ public extension String {
 public extension UIScreen {
     var width: CGFloat { bounds.size.width }
     var height: CGFloat { bounds.size.height }
+    var statusBarFrame: CGRect? {
+        if #available(iOS 13.0, *) {
+            return UIApplication.shared.keyWindow?.windowScene?.statusBarManager?.statusBarFrame
+        } else {
+            return UIApplication.shared.statusBarFrame
+        }
+    }
+    var statusBarheight: CGFloat? {
+        return statusBarFrame?.size.height
+    }
 }
 
 public extension UIView {
@@ -223,5 +233,5 @@ public extension FileManager {
 
 
 public extension URL {
-    
+
 }

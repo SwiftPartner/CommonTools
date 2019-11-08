@@ -1,0 +1,6 @@
+module SwiftCommonTools2 {
+  umbrella header "SwiftCommonTools2-umbrella.h"
+
+  export *
+  module * { export * }
+}
