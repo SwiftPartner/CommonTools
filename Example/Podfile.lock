@@ -1,5 +1,5 @@
 PODS:
-  - SwiftCommonTools2 (0.0.2)
+  - SwiftCommonTools2 (0.0.5)
 
 DEPENDENCIES:
   - SwiftCommonTools2 (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SwiftCommonTools2: 9b7dc394b24231e743a0b81cacda4ec00fb33085
+  SwiftCommonTools2: 2f4e452fd5849df9e6120562e36f02dc0832dd6a
 
 PODFILE CHECKSUM: e27d8d2aa08b79aacfb936557cbc599cc86ce623
 
